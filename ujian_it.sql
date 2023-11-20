@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 20, 2023 at 01:01 PM
+-- Generation Time: Nov 20, 2023 at 01:35 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -44,8 +44,13 @@ INSERT INTO `cart` (`cart_id`, `user_id`, `prod_id`, `quantity`) VALUES
 ('655b0fe3de17c', '6559d76557ccf', '6558c5d699300', 2),
 ('655b257098896', '6559d76557ccf', '655b251e8928c', 2),
 ('655b2a7923129', '655b2a646f3d6', '6558c5c277a48', 2),
-('655b2a7e910c2', '655b2a646f3d6', '655b25390258a', 2),
-('655b2b0e7c05f', '655b2a646f3d6', '655b250c9e360', 1);
+('655b2a7e910c2', '655b2a646f3d6', '655b25390258a', 1),
+('655b2b0e7c05f', '655b2a646f3d6', '655b250c9e360', 2),
+('655b5f5a1e17d', '655b2a646f3d6', '6558c5997ca13', 2),
+('655b602de6b0d', '655b2a646f3d6', '655b23460ce3f', 2),
+('655b604a70fdb', '655b604082214', '655b23460ce3f', 1),
+('655b605875095', '655b604082214', '655b250c9e360', 2),
+('655b608a6debb', '655b604082214', '655b25390258a', 2);
 
 -- --------------------------------------------------------
 
@@ -93,7 +98,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`user_id`, `username`, `email`, `password`) VALUES
 ('6559d76557ccf', 'arema', 'arema@gmail.com', '$2y$10$Nox6x6.V0T6yerZN2/m6kecExFZnedbVP7GfIgTy8sa.7y31dX2US'),
-('655b2a646f3d6', 'gtau', 'gtaubg@gmail.com', '$2y$10$ispxAbJ0qElYMSpyfX1xR.rtcp0l2YeFkz5XAPchz6PIzAJZM5GbC');
+('655b2a646f3d6', 'gtau', 'gtaubg@gmail.com', '$2y$10$ispxAbJ0qElYMSpyfX1xR.rtcp0l2YeFkz5XAPchz6PIzAJZM5GbC'),
+('655b604082214', 'user', 'user@gmail.com', '$2y$10$ubCM6YrVvkD.dGwLiNamWuIgNk4Ym.kjEzBfq4nwx.jyqrg.5T09i');
 
 --
 -- Indexes for dumped tables
